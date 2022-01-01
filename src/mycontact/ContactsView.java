@@ -64,15 +64,25 @@ int row,col;
         setTitle("My Contacts");
         setUndecorated(true);
 
+        jPanel1.setBackground(new java.awt.Color(60, 60, 60));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Insert Name");
 
+        txtContactName.setBackground(new java.awt.Color(102, 102, 102));
+        txtContactName.setForeground(new java.awt.Color(255, 255, 0));
+
         jLabel3.setFont(new java.awt.Font("Segoe UI Semibold", 0, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Insert Number");
 
+        txtContactNumber.setBackground(new java.awt.Color(102, 102, 102));
+        txtContactNumber.setForeground(new java.awt.Color(255, 255, 0));
+
         jLabel4.setFont(new java.awt.Font("Segoe UI Semibold", 0, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Insert Location");
 
         jCBContactLocation.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SIM 1", "SIM 2" }));
@@ -138,6 +148,7 @@ int row,col;
         });
         jScrollPane4.setViewportView(jTable2);
 
+        jPanel2.setBackground(new java.awt.Color(60, 60, 60));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         btnAdd.setText("Add");
@@ -194,6 +205,8 @@ int row,col;
                     .addComponent(btnSearch, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
+
+        jPanel3.setBackground(new java.awt.Color(0, 204, 102));
 
         jLabelMin.setBackground(new java.awt.Color(255, 255, 255));
         jLabelMin.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
