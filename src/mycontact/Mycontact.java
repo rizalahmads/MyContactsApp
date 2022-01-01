@@ -9,12 +9,16 @@ package mycontact;
  * @author dell
  */
 public class Mycontact {
+    
+    String contactname,contactlocation,contactnumber;
+    public Mycontact(String cname,String cloc,String cnum){
+        this.contactname = cname;
+        this.contactlocation = cloc;
+        this.contactnumber = cnum;
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
     }
     
 }
