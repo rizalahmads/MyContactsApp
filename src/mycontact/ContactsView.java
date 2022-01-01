@@ -287,6 +287,13 @@ int row,col;
         }
     }//GEN-LAST:event_jTable2MouseClicked
 
+     private void clearField(){
+        txtContactName.requestFocus();
+        txtContactName.setText("");
+        txtContactNumber.setText("");
+        jCBContactLocation.setSelectedIndex(0);
+    }
+    
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         // TODO add your handling code here:
         String contactname = txtContactName.getText();
@@ -428,7 +435,4 @@ int row,col;
     private javax.swing.JTextField txtContactNumber;
     // End of variables declaration//GEN-END:variables
 
-    private void clearField() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
